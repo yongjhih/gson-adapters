@@ -22,8 +22,8 @@ public class Post {
 
 ```json
 {
-  msg: "Hello, world!",
-  comments: ""
+  "msg": "Hello, world!",
+  "comments": ""
 }
 ```
 
