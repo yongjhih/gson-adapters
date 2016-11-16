@@ -2,7 +2,7 @@
 [![javadoc](https://img.shields.io/github/tag/yongjhih/gson-adapters.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/gson-adapters/-SNAPSHOT/javadoc/)
 [![Build Status](https://travis-ci.org/yongjhih/gson-adapters.svg)](https://travis-ci.org/yongjhih/gson-adapters)
 [![Coverage Status](https://coveralls.io/repos/github/yongjhih/gson-adapters/badge.svg)](https://coveralls.io/github/yongjhih/gson-adapters)
-<!--[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c583ae8fff9f4855954133c9146a11e4)](https://codacy.com/app/yongjhih/gson-adapters)-->
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/64490a4beab54dcaa8f5b23022d607d5)](https://www.codacy.com/app/yongjhih/gson-adapters)
 <!--[![javadoc.io](https://javadocio-badges.herokuapp.com/com.infstory/rxparse/badge.svg)](http://www.javadoc.io/doc/com.infstory/rxparse/)-->
 <!--[![Coveralls](https://img.shields.io/coveralls/yongjhih/RxParse.svg)](https://coveralls.io/github/yongjhih/RxParse)-->
 
