@@ -7,7 +7,6 @@ import java.util.List;
  * This represents a news item
  */
 public class NewsEntity {
-    private static final String TAG = NewsEntity.class.getSimpleName();
     private String title;
     private String summary;
     private String articleUrl;
@@ -15,9 +14,6 @@ public class NewsEntity {
     private String publishedDate;
     @SerializedName("multimedia")
     private List<MediaEntity> mediaEntityList;
-
-    public NewsEntity() {
-    }
 
     public String getTitle() {
         return title;

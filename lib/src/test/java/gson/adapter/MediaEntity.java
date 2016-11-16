@@ -13,9 +13,6 @@ public class MediaEntity {
     private String caption;
     private String copyright;
 
-    public MediaEntity() {
-    }
-
     public String getUrl() {
         return url;
     }
