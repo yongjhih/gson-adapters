@@ -14,6 +14,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -102,7 +103,7 @@ public class GsonTest {
     public static String toString(InputStream stream) {
         final StringBuilder sb = new StringBuilder();
         String strLine;
-        try (final BufferedReader reader = new BufferedReader(new InputStreamReader(stream))) {
+        try (final BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8))) {
             while ((strLine = reader.readLine()) != null) {
                 sb.append(strLine);
             }
