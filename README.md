@@ -20,7 +20,7 @@ public class Post {
 }
 ```
 
-```
+```json
 {
   msg: "Hello, world!",
   comments: ""
