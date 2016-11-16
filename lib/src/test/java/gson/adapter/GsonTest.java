@@ -21,6 +21,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GsonTest {
 
+    // For logging
     @Test
     public void testResources() {
         System.out.println(getClass().getResourceAsStream("src/test/resources/news1.json"));
@@ -39,6 +40,7 @@ public class GsonTest {
         System.out.println(getClass().getClassLoader().getResource("test/resources/news1.json"));
         System.out.println(getClass().getClassLoader().getResource("resources/news1.json"));
         System.out.println(getClass().getClassLoader().getResource("news1.json"));
+        assertThat(true).isTrue();
     }
 
     @Test
