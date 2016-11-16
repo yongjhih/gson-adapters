@@ -43,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih:gson-adapters:1.0.0'
+    compile 'com.github.yongjhih:gson-adapters:-SNAPSHOT'
 }
 ```
 
